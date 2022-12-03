@@ -37,3 +37,14 @@ Host github github.com
 
 4. 接続確認
 ssh -T git@github.com
+
+5. push前の確認
+httpsか、sshのどちらでpush する設定かを確認
+```
+git remote -v
+```
+
+httpsの場合、以下のコマンドでsshに切り替え
+```
+git remote set-url origin git@github.com:entiy1113/docs.git
+```
