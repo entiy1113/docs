@@ -36,7 +36,9 @@ Host github github.com
 5. 管理者に、作成したpubファイルを送り、githubに登録してもらう
 
 4. 接続確認
+```
 ssh -T git@github.com
+```
 
 5. push前の確認
 httpsか、sshのどちらでpush する設定かを確認
